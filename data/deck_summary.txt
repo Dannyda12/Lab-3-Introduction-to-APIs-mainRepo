@@ -1,0 +1,4 @@
+Cards drawn:
+5 of DIAMONDS
+5 of SPADES
+Remaining: 50
