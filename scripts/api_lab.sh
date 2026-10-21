@@ -12,10 +12,10 @@ log() {
     printf "%s - %s\n" "$(date '+%Y-%m-%d %H:%M:%S')" "$1" | tee -a "$LOG_FILE"
 }
 
-Cleanup() {
+cleanup() {
     log "LAB3_END"
 }
-trap Cleanup EXIT
+trap cleanup EXIT
 
 log "LAB3_START"
 
