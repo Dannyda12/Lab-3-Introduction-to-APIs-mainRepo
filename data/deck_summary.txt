@@ -1,4 +1,4 @@
 Cards drawn:
-QUEEN of HEARTS
-ACE of SPADES
+3 of SPADES
+5 of HEARTS
 Remaining: 50
