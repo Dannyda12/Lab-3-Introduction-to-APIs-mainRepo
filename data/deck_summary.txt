@@ -1,4 +1,4 @@
 Cards drawn:
-5 of DIAMONDS
-5 of SPADES
+QUEEN of HEARTS
+ACE of SPADES
 Remaining: 50
