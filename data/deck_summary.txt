@@ -1,4 +1,4 @@
 Cards drawn:
-3 of SPADES
-5 of HEARTS
+8 of DIAMONDS
+2 of CLUBS
 Remaining: 50
