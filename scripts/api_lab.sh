@@ -42,7 +42,7 @@ jq -r  ".id, .joke" data/dad_joke.json > data/dad_joke.txt
 log "JQ_JOKE_OK"
 
 DECK_STATUS=$(curl -sS \
-  -w '%{http_code}' -o data/deck.json \
+  -w '%{http_code}' -o data/deck_create.json \
   https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1)
 
   if [[ "$DECK_STATUS" != "200" ]]; then
@@ -51,7 +51,7 @@ DECK_STATUS=$(curl -sS \
   fi
 log "DECK_CREATE_OK"
 
-DECK_ID=$(jq -r ".deck_id" data/deck.json)
+DECK_ID=$(jq -r ".deck_id" data/deck_create.json)
 
 DRAW_STATUS=$(curl -sS \
   -w '%{http_code}' -o data/deck_draw.json \
